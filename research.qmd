@@ -1,0 +1,12 @@
+---
+title: "Research"
+bibliography: refs/bibs.bib
+nocite: |
+    @westermanSkillsStructuralChange2023
+    @sykDevelopmentJobQuality2022a
+---
+
+# Published
+
+::: {#refs}
+:::

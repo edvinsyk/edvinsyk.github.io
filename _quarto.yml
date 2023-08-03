@@ -1,0 +1,52 @@
+project:
+  type: website
+
+website:
+  title: "Edvin Syk"
+  site-url: "ed"
+  repo-url: "https://github.com/edvinsyk/"
+
+  navbar:
+    pinned: true
+
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+
+
+    right:
+      - icon: envelope
+        aria-label: email
+        href: "mailto:edvin.syk@sofi.su.se"
+      - icon: cloudy
+        aria-label: bluesky
+        href: https://bsky.app/profile/edvinsyk.bsky.social
+        rel: me
+      - icon: github
+        aria-label: github
+        href: https://github.com/edvinsyk
+        rel: me
+
+
+  page-footer:
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+
+# Metadata stuff
+pagetitle: "{{< meta title >}} | Edvin Syk"
+author-meta: "Edvin Syk"
+
+
+format:
+  html:
+    theme:
+      - html/es.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai
