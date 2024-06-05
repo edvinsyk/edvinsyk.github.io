@@ -1,10 +1,18 @@
 ---
 title: "Research"
-bibliography: refs/bibs.bib
+bibliography: references/references.bib
 nocite: |
     @westermanSkillsStructuralChange2023
     @sykDevelopmentJobQuality2022a
 ---
+
+# Ongoing
+
+* Career development in Job Quality: An intragenerational study of Sweden from 1968 to 2020. 
+* Is non-monetary job quality becoming more unequal? 20 years of evidence from Europe
+* Peripheral labor market status and job quality in the Swedish labor market 1968-2020, w/ Karin Halldén & Johan Westerman
+* Stratification and inequality: A Century of Social Class and Earnings Disparities in Sweden, w/ Max Thaning & Jakob Molinder
+* Class or Character: Big Five Personalty Traits as Predictors of Social Stratification and Mobility Outcomes w/ Roujman Shahbazian 
 
 # Published
 
