@@ -1,1 +1,1 @@
-Sitemap: ed/sitemap.xml
+Sitemap: https://edvinsyk.github.io/sitemap.xml
