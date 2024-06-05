@@ -1,6 +1,6 @@
 ---
 title: "Research"
-bibliography: references/references.bib
+bibliography: refs/bibs.bib
 nocite: |
     @westermanSkillsStructuralChange2023
     @sykDevelopmentJobQuality2022a
