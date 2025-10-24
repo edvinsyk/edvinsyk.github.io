@@ -1,11 +1,12 @@
 ---
-title: "About"
+title: ""
 main-photo: /images/edvsyk.png
 main-photo-square: /images/edvsyk.png
-title-block-banner: "#ffffff"
+page-navigation: false
+toc: false
+page-layout: full
 
 ---
-## Edvin Syk
 
 ::: {.grid}
 
@@ -30,7 +31,10 @@ title-block-banner: "#ffffff"
 ::: {.g-col-10 .g-col-sm-7}
 
 
-I'm a PhD-candidate in Sociology at [SOFI](https://www.su.se/swedish-institute-for-social-research/) at Stockholm University.
+Currently a postdoc in Sociology at the [Swedish Institute for Social Research, SOFI](https://www.su.se/swedish-institute-for-social-research/) at Stockholm University.
+
+Primarily funded by and involved in the [Forte](https://forte.se/sok-finansiering/utlysningar/arbetslivets-utmaningar-2024#h-Omutlysningen) project: "Oviss framtid och historia? En undersökning av osäkra arbetsliv och deras samband med hälsa och karriärsutveckling i Sverige över sex årtionden \[Precarious future and history? A study of precarious work-lives and their association with health and career development in Sweden over six decades\]"
+
 My research interest is generally labor market focused, with an emphasis on job quality and working conditions and my thesis concerns the development of job quality in Sweden over the last six decades.
 In a first paper I consider the [general development for men and women](https://www.sciencedirect.com/science/article/pii/S0276562422000725) over time and how this relates to ongoing secular structural trends on the labor market.
 In a second forthcoming paper I consider job quality in a career perspective, I look at the intragenerational mobility for different educational groups and by gender.
