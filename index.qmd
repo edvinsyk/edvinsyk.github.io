@@ -1,7 +1,7 @@
 ---
 title: ""
-main-photo: /images/edvsyk.png
-main-photo-square: /images/edvsyk.png
+main-photo: /images/edvsyk_2.jpeg
+main-photo-square: /images/edvsyk_2.jpeg
 page-navigation: false
 toc: false
 page-layout: full
@@ -14,15 +14,15 @@ page-layout: full
 
 ```{=html}
 <div class="grid" style="--bs-columns: 5; row-gap: 0;">
-  <div class="g-col-1 g-col-sm-0"></div>
-  <div class="g-col-3 g-col-sm-5">
+  <div class="g-col-1 g-col-sm-1"></div>
+  <div class="g-col-2.5 g-col-sm-3">
     <picture>
       <source media="(max-width: 576px)" srcset="{{< meta main-photo-square >}}">
       <source media="(min-width: 576px)" srcset="{{< meta main-photo >}}">
       <img class="img-fluid" src="{{< meta main-photo >}}" alt="{{< meta author-meta >}}">
     </picture>
   </div>
-  <div class="g-col-1 g-col-sm-0"></div>
+  <div class="g-col-1.5 g-col-sm-1"></div>
 </div>
 ```
 
@@ -36,11 +36,11 @@ Currently a postdoc in Sociology at the [Swedish Institute for Social Research, 
 Primarily funded by and involved in the [Forte](https://forte.se/sok-finansiering/utlysningar/arbetslivets-utmaningar-2024#h-Omutlysningen) project: "Oviss framtid och historia? En undersökning av osäkra arbetsliv och deras samband med hälsa och karriärsutveckling i Sverige över sex årtionden \[Precarious future and history? A study of precarious work-lives and their association with health and career development in Sweden over six decades\]"
 
 My research interest is generally labor market focused, with an emphasis on job quality and working conditions and my thesis concerns the development of job quality in Sweden over the last six decades.
-In a first paper I consider the [general development for men and women](https://www.sciencedirect.com/science/article/pii/S0276562422000725) over time and how this relates to ongoing secular structural trends on the labor market.
+In a first paper I consider the [general development for men and women](https://www.sciencedirect.com/science/article/pii/S0276562422000725) over time and how this relates to secular structural trends.
 In a second forthcoming paper I consider job quality in a career perspective, I look at the intragenerational mobility for different educational groups and by gender.
 In a third and final paper I also consider the inequality in several dimensions of job quality for large occupational classes in Europe.
 
-I'm also interested in stratification and inequality, as well as quantitative methods including Bayesian statistics.
+I'm also interested in social stratification, inequality, and economic volatility as well as quantitative methods including Bayesian statistics.
 :::
 
 :::

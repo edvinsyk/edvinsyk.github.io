@@ -15,6 +15,7 @@ nocite: |
 
 ### Preprints
 * Syk, E., Westerman, J., & Halldén, K. (2025). Peripheral labor market status and job quality in the Swedish labor market 1968-2010. SocArXiv. [https://doi.org/10.31235/osf.io/vs549_v1](https://doi.org/10.31235/osf.io/vs549_v1)
+* Syk, E., Thaning, M., & Nieuwenhuis, R. (2025). Intergenerational Inequalities in Economic Volatility. SocArXiv. [ https://doi.org/10.31235/osf.io/jvd4e_v1 ]( https://doi.org/10.31235/osf.io/jvd4e_v1 )
 
 ## Published
 
