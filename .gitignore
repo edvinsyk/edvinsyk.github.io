@@ -19,3 +19,6 @@ static/etc/*
 /.luarc.json
 .aider*
 **/*.quarto_ipynb
+/_cv-output/
+/_cv-academic-body.html
+/_cv-research-body.html

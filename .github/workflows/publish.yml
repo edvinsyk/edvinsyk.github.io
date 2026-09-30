@@ -1,0 +1,58 @@
+name: Build and publish website
+
+on:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [cv_updated]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: webpage-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out webpage
+        uses: actions/checkout@v6
+      - name: Check private CV checkout credential
+        env:
+          CV_REPOSITORY_TOKEN: ${{ secrets.CV_REPOSITORY_TOKEN }}
+        run: |
+          if [ -z "$CV_REPOSITORY_TOKEN" ]; then
+            echo "::error::Add the CV_REPOSITORY_TOKEN Actions secret with read access to edvinsyk/cv-academic."
+            exit 1
+          fi
+      - name: Check out private CV source
+        uses: actions/checkout@v6
+        with:
+          repository: edvinsyk/cv-academic
+          ref: ${{ github.event.client_payload.sha || 'master' }}
+          token: ${{ secrets.CV_REPOSITORY_TOKEN }}
+          path: cv-source
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render website and CVs
+        run: scripts/build-site.sh cv-source
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

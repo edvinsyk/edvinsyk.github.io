@@ -1,0 +1,11 @@
+---
+title: "CV"
+page-navigation: false
+format:
+  html:
+    css: html/cv-integrated.css
+---
+
+::: {.cv-integrated}
+{{< include _cv-academic-body.html >}}
+:::
